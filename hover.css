@@ -1,4 +1,4 @@
-.title, .potion-title, .poison-title {
+.main-title, .potion-title, .poison-title {
     transition: color 0.2s ease, text-shadow 0.2s ease;
     cursor: pointer;
 }
