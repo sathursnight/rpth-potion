@@ -1,6 +1,10 @@
-.potion-title, .poison-title {
-    transition: color 0.3s ease, text-shadow 0.3s ease;
+.title, .potion-title, .poison-title {
+    transition: color 0.2s ease, text-shadow 0.2s ease;
     cursor: pointer;
+}
+.title:hover {
+    color: #ffdd55 !important;
+    text-shadow: 0 0 15px rgba(189, 232, 252, 0.8), 0 0 25px rgba(129, 180, 235, 0.6) !important;
 }
 .potion-title:hover {
     color: #ffdd55 !important;
