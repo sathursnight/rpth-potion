@@ -2,7 +2,7 @@
     background-color: 0.2s ease;
     cursor: pointer;
 }
-.potion-title, .poison-title {
+.potion-title, .poison-title, .charm-title, .spell-title {
     transition: color 0.2s ease, text-shadow 0.2s ease;
     cursor: pointer;
 }
@@ -17,4 +17,12 @@
 .poison-title:hover {
     color: #d480ff !important;
     text-shadow: 0 0 15px rgba(212, 128, 255, 0.8), 0 0 25px rgba(153, 51, 255, 0.6) !important;
+}
+.charm-title:hover {
+    color: #55ff77 !important;
+    text-shadow: 0 0 15px rgba(85, 255, 119, 0.8), 0 0 25px rgba(0, 200, 50, 0.6) !important;
+}
+.spell-title:hover {
+    color: #ff77aa !important;
+    text-shadow: 0 0 15px rgba(255, 119, 170, 0.8), 0 0 25px rgba(255, 150, 100, 0.6) !important;
 }
