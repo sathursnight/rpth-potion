@@ -105,7 +105,6 @@
     overflow: visible;
 }
 .img-bg-circle img {
-    width: 100%;
     aspect-ratio: 1/1;
     object-fit: contain;
     filter: drop-shadow(0 0 14px rgba(255,255,255,0.30)) drop-shadow(0 0 25px rgba(255,255,255,0.35));
