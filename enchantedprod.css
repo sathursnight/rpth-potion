@@ -93,6 +93,7 @@
     width: 80%;
     margin: auto;
     aspect-ratio: 1/1;
+    border-radius: 50%;
     position: relative;
     display: flex;
     align-items: center;
@@ -105,7 +106,6 @@
 }
 .img-bg-circle img {
     aspect-ratio: 1/1;
-    border-radius: 50%;
     object-fit: contain;
     filter: drop-shadow(0 0 14px rgba(255,255,255,0.30)) drop-shadow(0 0 25px rgba(255,255,255,0.35));
 }
